@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+@media (max-width: 480px){
+    section{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .presentacion{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    img{
+        width: 200px;
+        height: 300px;
+    }
+    div{
+        margin-top: 15px;
+    }
+}
